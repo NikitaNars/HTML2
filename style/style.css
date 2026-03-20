@@ -1,0 +1,290 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box; 
+}
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+header
+{
+    
+    margin: 10px 10px 10px;
+    padding: 20px 20px 20px;
+    
+    
+}
+a
+{
+    text-decoration: none;
+}
+.Nav-header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+nav
+{
+    display: block;
+    justify-content: right;
+    margin-left: 100px;
+    
+}
+nav ul 
+{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    list-style-type: none;
+    font-size: 30px;
+    
+}
+.figureBuy figure {
+    display: flex;
+    gap: 50px;
+    margin-right: 80px;
+}
+.title h1
+{
+    margin-right: 150px;
+}
+.figureBuy figure img {
+    display: block; 
+    max-width: 100%;
+}
+nav ul li a
+{
+    
+    color: black;
+    
+}
+.header-b
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    margin: 30px;
+    background: rgb(233, 233, 233);
+    padding: 100px;
+    padding-bottom: 64px;
+}
+.textHeader
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.textHeader h2
+{
+    font-size: 100px;
+}
+.textHeader p
+{
+    font-size: 20px;
+    color: gray;
+}
+.textHeader a
+{
+    
+    margin-top: 50px;
+    font-size: 20px;
+    color: white;
+}
+.header-img {
+    position: relative;
+    display: inline-block;
+    margin: 50px; 
+}
+
+
+.imgCenter {
+    width: 600px;
+    height: 700px;
+    position: relative;
+}
+
+.background-image {
+    position: absolute;
+    top: -80px;
+    left: 0;
+   
+    width: calc(100% + 40px); /* сделайте шире */
+    height: calc(100% + 40px);
+    background-image: url('/img/image.png');
+    background-position: center;
+   
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+    margin: 50px;
+    
+}
+
+.diagonal-1 {
+    position: absolute;
+    top: -100px;
+    left: -10px;
+    width: 330px;
+    height: 350px;
+    background-image: url('/img/диагональ.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.diagonal-2 {
+    position: absolute;
+    bottom: -165px;
+    right: -140px;
+    width: 330px;
+    height: 350px;
+    background-image: url('/img/диагональ-1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+main
+{
+    margin: 100px;
+    margin-top: 120px;
+    
+}
+.headSetion
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+.headSetion h2
+{
+    font-size: 50px;
+}
+.headSetion a
+{
+    color: black;
+}
+.Jacket {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center; 
+    margin-top: 80px;
+    margin-left: 20px;
+    flex-wrap: wrap; 
+
+}
+.Jacket article {
+    flex: 1; 
+    min-width: 200px;
+    text-align: center; 
+}
+.Jacket h3
+{
+    margin-top: 30px;
+    margin-left: 25px;
+    text-align: left;
+    font-size: 25px;
+}
+.Jacket p
+{
+    margin-left: 30px;
+    margin-top: 15px;
+    text-align: left;
+    font-size: 20px;
+}
+.Jacket img {
+    max-width: 380px; 
+    height: auto;
+}
+.News
+{
+    margin: 40px;
+}
+.news-header
+{
+    margin-top: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.news-header h2
+{
+    font-size: 50px;
+}
+.news-header a
+{
+   margin-top: 10px; 
+   font-size: 30px;
+}
+.descpHead
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
+.descpHead img
+{
+    width: 980px;
+    height: 520px;
+}
+.descp
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    margin-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    background-color: rgb(212, 212, 212);
+}
+.descp h3
+{
+    font-size: 30px;
+    margin-top: 80px;
+}
+.descp h4
+{
+    margin-top: 45px;
+    font-size: 30px;
+}
+.descp p
+{
+    margin-top: 15px;
+    font-size: 30px;
+}
+.descp a
+{
+    margin-top: 45px;
+    margin-left: 68px;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+
+}
+.shopCategory
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-betweens;
+}
+.photoCategory
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+.photoCategory article img
+{
+    max-width: 380px; 
+    height: auto;
+}
